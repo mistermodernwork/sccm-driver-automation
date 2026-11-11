@@ -62,8 +62,10 @@ Describe 'Invoke-DriverAutomation' {
         }
 
         It 'example model list is valid JSON with all fields' {
-            $models = @(Get-Content -LiteralPath (Join-Path (Join-Path $repoRoot 'config') 'Models.example.json') -Raw | ConvertFrom-Json)
-            $models.Count | Should -BeGreaterThan 0
+            # Read it the way the toolkit does (Windows PowerShell 5.1 returns a JSON array as one object).
+            $ModelsFile = Join-Path (Join-Path $repoRoot 'config') 'Models.example.json'
+            $models = @(Get-ModelList)
+            $models.Count | Should -Be 2
             foreach ($m in $models) {
                 $m.Manufacturer | Should -Not -BeNullOrEmpty
                 $m.ModelName    | Should -Not -BeNullOrEmpty
