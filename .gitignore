@@ -1,0 +1,20 @@
+# Local settings (copy from config/DriverAutomation.Config.example.ps1)
+config/DriverAutomation.Config.ps1
+
+# Runtime data, in case ToolRoot points into the repository
+/Models.json
+/History.json
+Catalogs/
+Downloads/
+Logs/
+Staging/
+run.lock
+*.part
+
+# Driver pack binaries
+*.exe
+*.cab
+*.zip
+
+# Test output
+testResults*.xml

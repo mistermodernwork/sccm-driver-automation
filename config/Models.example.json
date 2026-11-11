@@ -1,0 +1,21 @@
+[
+  {
+    "Manufacturer": "Dell",
+    "ModelName": "Latitude 5450",
+    "ModelTag": "5450",
+    "MatchIds": [
+      "0C9A"
+    ],
+    "Added": "2026-11-01"
+  },
+  {
+    "Manufacturer": "Lenovo",
+    "ModelName": "ThinkPad X1 Carbon Gen 12 (Type 21KC, 21KD)",
+    "ModelTag": "X1_Carbon_Gen12",
+    "MatchIds": [
+      "21KC",
+      "21KD"
+    ],
+    "Added": "2026-11-01"
+  }
+]

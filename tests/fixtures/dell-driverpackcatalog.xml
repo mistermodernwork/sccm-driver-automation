@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Trimmed test fixture in the format of DriverPackCatalog.xml from https://downloads.dell.com/catalog/DriverPackCatalog.cab (paths are examples). -->
+<DriverPackManifest xmlns="openmanage/cm/dm" version="2026.11" baseLocation="downloads.dell.com">
+  <DriverPackage dateTime="2026-03-10T00:00:00-05:00" path="FOLDER10000001M/1/Latitude-5450-WIN11-A03-AAAA1.EXE" hashMD5="11111111111111111111111111111111" dellVersion="A03" type="win" size="1">
+    <SupportedOperatingSystems>
+      <OperatingSystem osCode="Windows11" osArch="x64"><Display lang="en"><![CDATA[Windows 11]]></Display></OperatingSystem>
+    </SupportedOperatingSystems>
+    <SupportedSystems>
+      <Brand key="1" prefix="LAT">
+        <Display lang="en"><![CDATA[Latitude]]></Display>
+        <Model systemID="0C9A" name="5450"><Display lang="en"><![CDATA[5450]]></Display></Model>
+      </Brand>
+    </SupportedSystems>
+  </DriverPackage>
+  <DriverPackage dateTime="2026-09-15T00:00:00-05:00" path="/FOLDER10000002M/1/Latitude-5450-WIN11-A05-BBBB2.EXE" hashMD5="22222222222222222222222222222222" dellVersion="A05" type="win" size="1">
+    <SupportedOperatingSystems>
+      <OperatingSystem osCode="Windows11" osArch="x64"/>
+    </SupportedOperatingSystems>
+    <SupportedSystems>
+      <Brand key="1" prefix="LAT">
+        <Display lang="en"><![CDATA[Latitude]]></Display>
+        <Model systemID="0C9A" name="5450"/>
+      </Brand>
+    </SupportedSystems>
+  </DriverPackage>
+  <DriverPackage dateTime="2026-07-01T00:00:00-05:00" path="FOLDER10000003M/1/OptiPlex-7020-WIN11-A02-CCCC3.EXE" hashMD5="33333333333333333333333333333333" dellVersion="A02" type="win" size="1">
+    <SupportedOperatingSystems>
+      <OperatingSystem osCode="Windows11" osArch="x64"/>
+      <OperatingSystem osCode="Windows10" osArch="x64"/>
+    </SupportedOperatingSystems>
+    <SupportedSystems>
+      <Brand key="2" prefix="OP">
+        <Display lang="en"><![CDATA[OptiPlex]]></Display>
+        <Model systemID="0C5F" name="7020 Micro"/>
+        <Model systemID="0C60" name="7020 Tower"/>
+      </Brand>
+    </SupportedSystems>
+  </DriverPackage>
+  <DriverPackage dateTime="2026-07-01T00:00:00-05:00" path="FOLDER10000004M/1/WinPE11.0-Drivers-A01-DDDD4.cab" hashMD5="44444444444444444444444444444444" dellVersion="A01" type="winpe" size="1">
+    <SupportedOperatingSystems>
+      <OperatingSystem osCode="Windows11"/>
+      <OperatingSystem osCode="WinPE11"/>
+    </SupportedOperatingSystems>
+    <SupportedSystems>
+      <Brand key="3" prefix="PE"><Display lang="en"><![CDATA[WinPE]]></Display><Model systemID="FFFF" name="Any"/></Brand>
+    </SupportedSystems>
+  </DriverPackage>
+  <DriverPackage dateTime="2024-01-01T00:00:00-05:00" path="FOLDER10000005M/1/Latitude-5420-WIN10-A10-EEEE5.EXE" hashMD5="55555555555555555555555555555555" dellVersion="A10" type="win" size="1">
+    <SupportedOperatingSystems>
+      <OperatingSystem osCode="Windows10" osArch="x64"/>
+    </SupportedOperatingSystems>
+    <SupportedSystems>
+      <Brand key="1" prefix="LAT"><Display lang="en"><![CDATA[Latitude]]></Display><Model systemID="0A1B" name="5420"/></Brand>
+    </SupportedSystems>
+  </DriverPackage>
+</DriverPackManifest>
